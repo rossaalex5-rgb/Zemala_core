@@ -22,3 +22,6 @@ ZEMALA Core ist ein lokales, deterministisches Event-System auf Termux-Basis.
 ### 📺 Media & Vision
 Begleitende Analysen und die Vision hinter diesem System findest du auf meinem YouTube-Kanal:
 👉 [Quantum Decision Field](https://youtube.com)
+
+## 🏷️ Keywords & Discovery
+#AIAct #TrustworthyAI #TermuxAutomation #EventSourcing #CyberSecurity #QuantumDecisionField #DataIntegrity #OpenSource #AndroidDev
