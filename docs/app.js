@@ -2,17 +2,14 @@ async function generateHash() {
     const input = document.getElementById('inputArea').value;
     if (!input) return;
 
-    // 1. Hash berechnen (SHA-256)
     const encoder = new TextEncoder();
     const data = encoder.encode(input);
     const hashBuffer = await crypto.subtle.digest('SHA-256', data);
     const hashArray = Array.from(new Uint8Array(hashBuffer));
     const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 
-    // 2. Hash im UI anzeigen
     document.getElementById('hashOutput').innerText = hashHex;
 
-    // 3. JSON Daten vorbereiten
     const exportData = {
         timestamp: new Date().toISOString(),
         input: input,
@@ -20,7 +17,7 @@ async function generateHash() {
         system: "Zemala Core v1.0"
     };
 
-    // 4. Download-Trigger (Optimiert für Android/Chrome)
+    // Robuster Download-Trigger für Android
     const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -29,11 +26,10 @@ async function generateHash() {
     a.href = url;
     a.download = `zemala-event-${Math.floor(Date.now() / 1000)}.json`;
     
-    // Das Element muss für den Klick kurz im Dokument sein
+    // WICHTIG: Das Element MUSS im Body sein, damit Chrome den Klick akzeptiert
     document.body.appendChild(a);
     a.click();
     
-    // Aufräumen
     setTimeout(() => {
         document.body.removeChild(a);
         window.URL.revokeObjectURL(url);
