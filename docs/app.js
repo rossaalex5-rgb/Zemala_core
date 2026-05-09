@@ -2,17 +2,17 @@ async function generateHash() {
     const input = document.getElementById('inputArea').value;
     if (!input) return;
 
-    // 1. Hash berechnen
+    // 1. Hash berechnen (SHA-256)
     const encoder = new TextEncoder();
     const data = encoder.encode(input);
     const hashBuffer = await crypto.subtle.digest('SHA-256', data);
     const hashArray = Array.from(new Uint8Array(hashBuffer));
     const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 
-    // 2. Hash anzeigen
+    // 2. Hash im UI anzeigen
     document.getElementById('hashOutput').innerText = hashHex;
 
-    // 3. JSON Export Objekt
+    // 3. JSON Daten vorbereiten
     const exportData = {
         timestamp: new Date().toISOString(),
         input: input,
@@ -20,14 +20,16 @@ async function generateHash() {
         system: "Zemala Core v1.0"
     };
 
-    // 4. Download-Trigger (Optimiert für Mobile)
+    // 4. Download-Trigger (Optimiert für Android/Chrome)
     const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
+    
+    a.style.display = 'none';
     a.href = url;
     a.download = `zemala-event-${Math.floor(Date.now() / 1000)}.json`;
     
-    // Wichtig für Mobile: Das Element muss kurz im DOM sein
+    // Das Element muss für den Klick kurz im Dokument sein
     document.body.appendChild(a);
     a.click();
     
