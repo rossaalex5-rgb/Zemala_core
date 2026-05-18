@@ -1,0 +1,9 @@
+BEGIN_EVENT
+{
+  "event_type": "execute",
+  "command": "echo",
+  "payload": {
+    "msg": "SYNCHRONISATION GESTARTET: Ledger-Dateien werden im Gitter verankert. Pfade verifiziert. Reibung: 0."
+  }
+}
+END_EVENT

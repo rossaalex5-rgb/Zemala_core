@@ -1,0 +1,20 @@
+==> 1) Erstelle Sicherheits-Backup in /data/data/com.termux/files/home/zemala_backup_20260518_161229
+[DRY] mkdir -p "/data/data/com.termux/files/home/zemala_backup_20260518_161229"
+[DRY] cp -a "/data/data/com.termux/files/home/zemala-core" "/data/data/com.termux/files/home/zemala_backup_20260518_161229/dash_backup"
+[DRY] cp -a "/data/data/com.termux/files/home/zemala_core" "/data/data/com.termux/files/home/zemala_backup_20260518_161229/underscore_backup"
+==> 2) Erzeuge Standardstruktur und fusioniere (falls vorhanden)
+[DRY] mkdir -p "/data/data/com.termux/files/home/zemala-core/scripts" "/data/data/com.termux/files/home/zemala-core/logs" "/data/data/com.termux/files/home/zemala-core/vault/archive" "/data/data/com.termux/files/home/zemala-core/vault/inbox" "/data/data/com.termux/files/home/zemala-core/docs"
+   Fusioniere /data/data/com.termux/files/home/zemala_core -> /data/data/com.termux/files/home/zemala-core (nur neue Dateien, keine Überschreibung)
+[DRY] cp -rn "/data/data/com.termux/files/home/zemala_core"/* "/data/data/com.termux/files/home/zemala-core"/ 2>/dev/null || true
+==> 3) Normalisiere Pfade in Skripten (zemala_core -> zemala-core)
+[DRY] find "/data/data/com.termux/files/home/zemala-core/scripts" -type f \( -name '*.sh' -o -name '*.py' -o -name '*.lua' -o -name '*.js' \) -print0 | xargs -0 -r sed -i 's/zemala_core/zemala-core/g'
+==> 4) Aktualisiere ~/.bashrc (ersetze zemala_core -> zemala-core), kein automatisches source
+[DRY] sed -i 's/zemala_core/zemala-core/g' "/data/data/com.termux/files/home/.bashrc"
+   Hinweis: .bashrc aktualisiert. Wenn du die Änderungen laden willst, führe 'source ~/.bashrc' manuell aus.
+==> 5) Git-Vorbereitung (.gitignore ergänzen)
+[DRY] cd "/data/data/com.termux/files/home/zemala-core" && touch .gitignore
+[DRY] cd "/data/data/com.termux/files/home/zemala-core" && grep -qxF "vault/" .gitignore || echo "vault/" >> .gitignore
+[DRY] cd "/data/data/com.termux/files/home/zemala-core" && grep -qxF "logs/" .gitignore || echo "logs/" >> .gitignore
+[DRY] cd "/data/data/com.termux/files/home/zemala-core" && grep -qxF "*.log" .gitignore || echo "*.log" >> .gitignore
+[DRY] cd "/data/data/com.termux/files/home/zemala-core" && grep -qxF "backup/" .gitignore || echo "backup/" >> .gitignore
+==> 6) Erzeuge Diagnose-Skript: /data/data/com.termux/files/home/zemala-core/scripts/doctor.sh

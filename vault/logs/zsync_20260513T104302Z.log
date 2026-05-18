@@ -1,0 +1,25 @@
+2026-05-13T10:43:04Z | Found 1 files
+2026-05-13T10:43:04Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-1778668973830.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778668973830_20260513T104302Z.json
+2026-05-13T10:43:04Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778668973830_20260513T104302Z.json
+2026-05-13T10:43:06Z | Starting rclone copy from /data/data/com.termux/files/home/zemala-core/vault/inbox to gdrive:Zemala_Cloud/inbox
+Transferred:   	          0 B / 8.236 KiB, 0%, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 7
+Transferred:            0 / 1, 0%
+Elapsed time:         0.4s
+Transferring:
+ * zemala-ledger-17786689…_20260513T104302Z.json:  0% / 8.236 KiB, 0 B/s, -Transferred:   	    8.236 KiB / 8.236 KiB, 100%, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 7
+Transferred:            0 / 1, 0%
+Elapsed time:         0.9s
+Transferring:
+ * zemala-ledger-17786689…_20260513T104302Z.json:100% / 8.236 KiB, 0 B/s, -Transferred:   	    8.236 KiB / 8.236 KiB, 100%, 8.234 KiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 7
+Transferred:            0 / 1, 0%
+Elapsed time:         1.4s
+Transferring:
+ * zemala-ledger-17786689…_20260513T104302Z.json:100% / 8.236 KiB, 8.232 KiB/sTransferred:   	    8.236 KiB / 8.236 KiB, 100%, 8.234 KiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 7
+Transferred:            1 / 1, 100%
+Elapsed time:         1.9s
+2026-05-13T10:43:43Z | rclone copy succeeded
+2026-05-13T10:43:46Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-1778668973830_20260513T104302Z.json

@@ -1,0 +1,9 @@
+BEGIN_EVENT
+{
+  "event_type": "execute",
+  "command": "echo",
+  "payload": {
+    "msg": "ZEMALA BRIDGE ONLINE - STUFE 100 BESTÄTIGT"
+  }
+}
+END_EVENT

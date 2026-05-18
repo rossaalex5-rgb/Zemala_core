@@ -1,0 +1,2 @@
+{"id":"evt_1778245628521130570","timestamp":"2026-05-08T13:07:08Z","type":"PILOT","payload":{"action":"start","source":"termux"},"event_hash":"6584cffee6bef7b433146e6f3ec784038df88f919506ab50a58e40659b327dc1"}
+{"id":"evt_1778247706150543527","timestamp":"2026-05-08T13:41:46Z","type":"HARDWARE","payload":{"action":"thermo_suppe_kochen","source":"thermomix_v1"},"event_hash":"aaa7a25a6cbd8dd6053e96ccca207e8b0cd65c899943ddfc6753082b0fa2445d"}

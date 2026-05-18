@@ -1,0 +1,148 @@
+2026-05-18T14:14:37Z | Found 12 files
+2026-05-18T14:14:37Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-1778668973830.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778668973830_20260518T141435Z.json
+2026-05-18T14:14:37Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778668973830_20260518T141435Z.json
+2026-05-18T14:14:37Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-1778669787650.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778669787650_20260518T141435Z.json
+2026-05-18T14:14:37Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778669787650_20260518T141435Z.json
+2026-05-18T14:14:37Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-1778670179345.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778670179345_20260518T141435Z.json
+2026-05-18T14:14:37Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778670179345_20260518T141435Z.json
+2026-05-18T14:14:37Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-1778670524156.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778670524156_20260518T141435Z.json
+2026-05-18T14:14:37Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778670524156_20260518T141435Z.json
+2026-05-18T14:14:37Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-1778670627009.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778670627009_20260518T141435Z.json
+2026-05-18T14:14:37Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778670627009_20260518T141435Z.json
+2026-05-18T14:14:37Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-1778670968537.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778670968537_20260518T141435Z.json
+2026-05-18T14:14:37Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778670968537_20260518T141435Z.json
+2026-05-18T14:14:37Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-1778671261602.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778671261602_20260518T141435Z.json
+2026-05-18T14:14:37Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778671261602_20260518T141435Z.json
+2026-05-18T14:14:37Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-1778672301441.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778672301441_20260518T141435Z.json
+2026-05-18T14:14:37Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778672301441_20260518T141435Z.json
+2026-05-18T14:14:37Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-1778672467313.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778672467313_20260518T141435Z.json
+2026-05-18T14:14:37Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778672467313_20260518T141435Z.json
+2026-05-18T14:14:37Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-1778672677646.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778672677646_20260518T141435Z.json
+2026-05-18T14:14:38Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778672677646_20260518T141435Z.json
+2026-05-18T14:14:38Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-1778705530922.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778705530922_20260518T141435Z.json
+2026-05-18T14:14:38Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-1778705530922_20260518T141435Z.json
+2026-05-18T14:14:38Z | Import start: /data/data/com.termux/files/home/storage/downloads/zemala-ledger-full.json -> /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-full_20260518T141435Z.json
+2026-05-18T14:14:38Z | Imported: /data/data/com.termux/files/home/zemala-core/vault/inbox/zemala-ledger-full_20260518T141435Z.json
+2026-05-18T14:14:38Z | Starting rclone copy from /data/data/com.termux/files/home/zemala-core/vault/inbox to gdrive:Zemala_Cloud/inbox
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 13
+Elapsed time:         0.4sTransferred:   	   33.400 KiB / 189.684 KiB, 18%, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 122
+Transferred:            0 / 13, 0%
+Elapsed time:         0.9s
+Transferring:
+ *                         test_event_pulse.json:100% / 296 B, 0 B/s, -
+ * zemala-ledger-17786689…_20260518T141435Z.json:100% / 8.236 KiB, 0 B/s, -
+ * zemala-ledger-17786697…_20260518T141435Z.json:100% / 12.001 KiB, 0 B/s, -
+ * zemala-ledger-17786701…_20260518T141435Z.json:100% / 12.874 KiB, 0 B/s, -Transferred:   	   33.400 KiB / 189.684 KiB, 18%, 33.394 KiB/s, ETA 4s
+Checks:                 0 / 0, -, Listed 122
+Transferred:            0 / 13, 0%
+Elapsed time:         1.4s
+Transferring:
+ *                         test_event_pulse.json:100% / 296 B, 0 B/s, -
+ * zemala-ledger-17786689…_20260518T141435Z.json:100% / 8.236 KiB, 0 B/s, -
+ * zemala-ledger-17786697…_20260518T141435Z.json:100% / 12.001 KiB, 0 B/s, -
+ * zemala-ledger-17786701…_20260518T141435Z.json:100% / 12.874 KiB, 0 B/s, -Transferred:   	   33.400 KiB / 189.684 KiB, 18%, 33.394 KiB/s, ETA 4s
+Checks:                 0 / 0, -, Listed 122
+Transferred:            0 / 13, 0%
+Elapsed time:         1.9s
+Transferring:
+ *                         test_event_pulse.json:100% / 296 B, 295 B/s, 0s
+ * zemala-ledger-17786689…_20260518T141435Z.json:100% / 8.236 KiB, 8.234 KiB/s
+ * zemala-ledger-17786697…_20260518T141435Z.json:100% / 12.001 KiB, 11.998 KiB
+ * zemala-ledger-17786701…_20260518T141435Z.json:100% / 12.874 KiB, 12.872 KiBTransferred:   	   33.400 KiB / 189.684 KiB, 18%, 16.696 KiB/s, ETA 9s
+Checks:                 0 / 0, -, Listed 122
+Transferred:            3 / 13, 23%
+Elapsed time:         2.4s
+Transferring:
+ * zemala-ledger-17786697…_20260518T141435Z.json:100% / 12.001 KiB, 11.998 KiB
+ * zemala-ledger-17786705…_20260518T141435Z.json:  0% / 14.902 KiB, 0 B/s, -
+ * zemala-ledger-17786706…_20260518T141435Z.json:  0% / 16.618 KiB, 0 B/s, -
+ * zemala-ledger-17786709…_20260518T141435Z.json:  0% / 16.618 KiB, 0 B/s, -Transferred:   	   99.812 KiB / 189.684 KiB, 53%, 16.696 KiB/s, ETA 5s
+Checks:                 0 / 0, -, Listed 122
+Transferred:            4 / 13, 31%
+Elapsed time:         2.9s
+Transferring:
+ * zemala-ledger-17786705…_20260518T141435Z.json:100% / 14.902 KiB, 0 B/s, -
+ * zemala-ledger-17786706…_20260518T141435Z.json:100% / 16.618 KiB, 0 B/s, -
+ * zemala-ledger-17786709…_20260518T141435Z.json:100% / 16.618 KiB, 0 B/s, -
+ * zemala-ledger-17786712…_20260518T141435Z.json:100% / 18.272 KiB, 0 B/s, -Transferred:   	   99.812 KiB / 189.684 KiB, 53%, 33.268 KiB/s, ETA 2s
+Checks:                 0 / 0, -, Listed 122
+Transferred:            4 / 13, 31%
+Elapsed time:         3.4s
+Transferring:
+ * zemala-ledger-17786705…_20260518T141435Z.json:100% / 14.902 KiB, 14.899 KiB
+ * zemala-ledger-17786706…_20260518T141435Z.json:100% / 16.618 KiB, 16.610 KiB
+ * zemala-ledger-17786709…_20260518T141435Z.json:100% / 16.618 KiB, 16.614 KiB
+ * zemala-ledger-17786712…_20260518T141435Z.json:100% / 18.272 KiB, 0 B/s, -Transferred:   	   99.812 KiB / 189.684 KiB, 53%, 33.268 KiB/s, ETA 2s
+Checks:                 0 / 0, -, Listed 122
+Transferred:            4 / 13, 31%
+Elapsed time:         3.9s
+Transferring:
+ * zemala-ledger-17786705…_20260518T141435Z.json:100% / 14.902 KiB, 14.899 KiB
+ * zemala-ledger-17786706…_20260518T141435Z.json:100% / 16.618 KiB, 16.610 KiB
+ * zemala-ledger-17786709…_20260518T141435Z.json:100% / 16.618 KiB, 16.614 KiB
+ * zemala-ledger-17786712…_20260518T141435Z.json:100% / 18.272 KiB, 18.265 KiBTransferred:   	  165.836 KiB / 189.684 KiB, 87%, 24.951 KiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 122
+Transferred:            8 / 13, 62%
+Elapsed time:         4.4s
+Transferring:
+ * zemala-ledger-17786723…_20260518T141435Z.json:100% / 20.172 KiB, 0 B/s, -
+ * zemala-ledger-17786724…_20260518T141435Z.json:100% / 22.305 KiB, 0 B/s, -
+ * zemala-ledger-17786726…_20260518T141435Z.json:100% / 23.548 KiB, 0 B/s, -
+ * zemala-ledger-17787055…_20260518T141435Z.json:  0% / 23.548 KiB, 0 B/s, -Transferred:   	  189.384 KiB / 189.684 KiB, 100%, 24.951 KiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 122
+Transferred:            8 / 13, 62%
+Elapsed time:         4.9s
+Transferring:
+ * zemala-ledger-17786723…_20260518T141435Z.json:100% / 20.172 KiB, 0 B/s, -
+ * zemala-ledger-17786724…_20260518T141435Z.json:100% / 22.305 KiB, 0 B/s, -
+ * zemala-ledger-17786726…_20260518T141435Z.json:100% / 23.548 KiB, 0 B/s, -
+ * zemala-ledger-17787055…_20260518T141435Z.json:100% / 23.548 KiB, 0 B/s, -Transferred:   	  189.384 KiB / 189.684 KiB, 100%, 37.875 KiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 122
+Transferred:            8 / 13, 62%
+Elapsed time:         5.4s
+Transferring:
+ * zemala-ledger-17786723…_20260518T141435Z.json:100% / 20.172 KiB, 20.166 KiB
+ * zemala-ledger-17786724…_20260518T141435Z.json:100% / 22.305 KiB, 22.300 KiB
+ * zemala-ledger-17786726…_20260518T141435Z.json:100% / 23.548 KiB, 23.534 KiB
+ * zemala-ledger-17787055…_20260518T141435Z.json:100% / 23.548 KiB, 23.545 KiBTransferred:   	  189.684 KiB / 189.684 KiB, 100%, 37.875 KiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 122
+Transferred:           10 / 13, 77%
+Elapsed time:         5.9s
+Transferring:
+ * zemala-ledger-17786723…_20260518T141435Z.json:100% / 20.172 KiB, 20.166 KiB
+ * zemala-ledger-17786724…_20260518T141435Z.json:100% / 22.305 KiB, 22.300 KiB
+ *      zemala-ledger-full_20260518T141435Z.json:100% / 307 B, 0 B/s, -Transferred:   	  189.684 KiB / 189.684 KiB, 100%, 31.612 KiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 122
+Transferred:           11 / 13, 85%
+Elapsed time:         6.4s
+Transferring:
+ * zemala-ledger-17786724…_20260518T141435Z.json:100% / 22.305 KiB, 11.149 KiB
+ *      zemala-ledger-full_20260518T141435Z.json:100% / 307 B, 0 B/s, -Transferred:   	  189.684 KiB / 189.684 KiB, 100%, 31.612 KiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 122
+Transferred:           12 / 13, 92%
+Elapsed time:         6.9s
+Transferring:
+ *      zemala-ledger-full_20260518T141435Z.json:100% / 307 B, 306 B/s, 0sTransferred:   	  189.684 KiB / 189.684 KiB, 100%, 27.096 KiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 122
+Transferred:           12 / 13, 92%
+Elapsed time:         7.4s
+Transferring:
+ *      zemala-ledger-full_20260518T141435Z.json:100% / 307 B, 306 B/s, 0sTransferred:   	  189.684 KiB / 189.684 KiB, 100%, 27.096 KiB/s, ETA 0s
+Checks:                 0 / 0, -, Listed 122
+Transferred:           13 / 13, 100%
+Elapsed time:         7.8s
+2026-05-18T14:14:48Z | rclone copy succeeded
+2026-05-18T14:14:50Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-1778668973830_20260518T141435Z.json
+2026-05-18T14:14:50Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-1778669787650_20260518T141435Z.json
+2026-05-18T14:14:50Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-1778670179345_20260518T141435Z.json
+2026-05-18T14:14:50Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-1778670524156_20260518T141435Z.json
+2026-05-18T14:14:50Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-1778670627009_20260518T141435Z.json
+2026-05-18T14:14:50Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-1778670968537_20260518T141435Z.json
+2026-05-18T14:14:50Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-1778671261602_20260518T141435Z.json
+2026-05-18T14:14:50Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-1778672301441_20260518T141435Z.json
+2026-05-18T14:14:50Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-1778672467313_20260518T141435Z.json
+2026-05-18T14:14:50Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-1778672677646_20260518T141435Z.json
+2026-05-18T14:14:50Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-1778705530922_20260518T141435Z.json
+2026-05-18T14:14:50Z | Archived: /data/data/com.termux/files/home/zemala-core/vault/archive/zemala-ledger-full_20260518T141435Z.json
