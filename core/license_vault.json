@@ -1,0 +1,16 @@
+{
+  "license_format": "ZEMALA-B2B-COMPLIANCE",
+  "version": "1.8-GOLD",
+  "license_tier": "PREMIUM",
+  "holder": "rossaalex5-rgb (Lead Conductor)",
+  "features_unlocked": {
+    "rclone_cloud_relay": true,
+    "multi_agent_memory_merge": true,
+    "hardware_gnosis_offline_3b": true,
+    "eu_ai_act_audit_export": true
+  },
+  "cryptographic_lock": {
+    "method": "SHA-256",
+    "signature": "b8a1c92d4f8e7b3a6c1e9f0d2c5b4a7e8f90a1b2c3d4e5f6a7b8c9d0e1f2a3b4"
+  }
+}

@@ -22,3 +22,8 @@ echo "========================================================="
 echo "[+] SYSTEM VOLLSTÄNDIG GEKOPPELT. Resonanz stabil bei H = 0,96."
 echo "[*] Dein Llama-Server steht über a2a_gnosis.py bereit."
 echo "========================================================="
+
+# 4. B2B-Lizenz-Audit erzwingen
+if [ -f "scripts/verify_license.sh" ]; then
+    ./scripts/verify_license.sh
+fi
