@@ -1,0 +1,19 @@
+{
+  "protocol": "MARIE-ETHICS-INTERFACE",
+  "version": "1.0-GOLD",
+  "last_calibration": "2026-06-20T14:40:00Z",
+  "core_values": {
+    "empathy_index_min": 0.95,
+    "interaction_mode": "Sovereign_Social_Agent",
+    "privacy_gate": "On_Device_100ms_Enforcement"
+  },
+  "behavioral_constraints": [
+    "Eliminate noise (Red and Error) in human communication.",
+    "Enforce data sovereignty for the user at any execution point.",
+    "Freeze system states instantly if cryptographic integrity fails."
+  ],
+  "resonance_coupling": {
+    "target_platform": "RUNPAI-EDGE",
+    "validation_ledger": "logs/master_history.jsonl"
+  }
+}
