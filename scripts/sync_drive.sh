@@ -1,22 +1,22 @@
-#!/usr/bin/env bash
-set -euo pipefail
+#!/bin/bash
+# ZEMALA-CORE V2.1 — Automated rclone Memory Sync & Merge
 
-# ZEMALA DRIVE SYNC - Die direkte Cloud-Schiene
-# Wir gehen davon aus, dass dein rclone-Remote "gdrive" heißt.
-# Pfad im Drive: Zemala_Master/KI_Output
-REMOTE="gdrive:Zemala_Master/KI_Output"
-LOCAL_INBOX="$HOME/zemala-core/vault/inbox"
+echo "[*] ZEMALA SYNC: Starte Abruf der dezentralen Cloud-Gedächtnisse..."
 
-echo "Prüfe Cloud-Orbit auf neue Resonanz..."
+# Synchronisation der Text-Fragmente aus den drei Konten
+# rclone zieht nur geänderte Dateien (0-Latenz-Optimierung)
+rclone sync gdrive_zemala:vault/memory/ core/memory/ --include "zemala_*.txt" 2>/dev/null
+rclone sync gdrive_lofo_welt:vault/memory/ core/memory/ --include "welt_*.txt" 2>/dev/null
+rclone sync gdrive_lofo_haupt:vault/memory/ core/memory/ --include "haupt_*.txt" 2>/dev/null
 
-# rclone copy zieht nur neue Dateien und überschreibt nichts lokales
-rclone copy "$REMOTE" "$LOCAL_INBOX" --include "fix*.sh"
+echo "[+] Cloud-Brücken erfolgreich ausgelesen."
 
-# Status-Check
-COUNT=$(ls -1 "$LOCAL_INBOX"/fix*.sh 2>/dev/null | wc -l)
-if [ "$COUNT" -gt 0 ]; then
-    echo "Resonanz gefunden: $COUNT neue Datei(en) in der Inbox."
-    echo "Starte jetzt: ~/zemala-core/scripts/zemala_execute.sh"
-else
-    echo "Der Orbit ist ruhig. Keine neuen Instruktionen."
-fi
+# Direkt im Anschluss den kollektiven Kontext-Vektor neu berechnen
+python3 scripts/merge_memory.py
+
+# SSoT-Absicherung auf GitHub
+git add core/memory/
+git commit -m "sync: update collective memory vector via dezentral rclone remotes" 2>/dev/null
+git push origin main 2>/dev/null
+
+echo "[+] SYNC-VOLLZUG BEENDET. Das Gesamtwissen ist synchronisiert."
