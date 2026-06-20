@@ -1,0 +1,24 @@
+{
+  "compiled_at": "2026-06-20T12:31:39Z",
+  "strands": {
+    "lofo_haupt": [
+      {
+        "data": "Fokus: Private Historie, lofo-haupt Kern-Erkenntnisse aus Gemini-Chats.",
+        "source": "haupt_01.txt"
+      }
+    ],
+    "lofo_welt": [
+      {
+        "data": "Fokus: LinkedIn-Interaktionen, Dirk Schr\u00f6dter Thread, Erika Brodnock Vektor.",
+        "source": "welt_01.txt"
+      }
+    ],
+    "zemala_core": [
+      {
+        "data": "Fokus: Datensouver\u00e4nit\u00e4t, Hardware-Gnosis, Marker 12 Stabilit\u00e4t.",
+        "source": "zemala_01.txt"
+      }
+    ]
+  },
+  "system": "ZEMALA-CORE"
+}

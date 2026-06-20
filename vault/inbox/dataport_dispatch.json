@@ -1,0 +1,11 @@
+{
+  "event_id": "EVT_EMISSION_1781519189",
+  "timestamp": "2026-06-15T10:26:29Z",
+  "type": "STRATEGIC_OUTREACH",
+  "payload": {
+    "target": "Dataport_Omni_Channel",
+    "nodes": 5,
+    "artifacts": ["dataport_suite.html", "zemala_ratgeber.pdf", "ihk_baseline.pdf"],
+    "status": "SENT"
+  }
+}
