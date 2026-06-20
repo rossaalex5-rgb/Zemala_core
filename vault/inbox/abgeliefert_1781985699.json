@@ -1,0 +1,13 @@
+{
+  "event_id": "EVT_FINAL_CRYSTALLIZATION_V2.1",
+  "timestamp": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+  "type": "SYSTEM_RELEASE",
+  "payload": {
+    "marker": 12.1,
+    "resonance_h": 0.96,
+    "hardware_state": "COOL_IDLE",
+    "license_tier": "B2B_PREMIUM",
+    "external_resonance": ["Dirk_Schroedter", "Erika_Brodnock_MBE"],
+    "status": "COMPLETED"
+  }
+}
